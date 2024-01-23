@@ -2,15 +2,17 @@
 I have used `NestJS` - A progressive `Node.js` framework
 
 # Configuration
-I have host my database on freemysqlhosting.net.
+I have host database on freemysqlhosting.net.
 No need to change database config for api testing.
 
+```
 Server: sql.freedb.tech
 Name: freedb_mondal
 Username: freedb_mondal
 Password: 2UDbzzEKN4#nFVM
 Port number: 3306
 
+```
 
 ## Database
 The database has one table called `products` and has the following structure:
