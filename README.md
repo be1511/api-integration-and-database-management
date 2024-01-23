@@ -1,9 +1,9 @@
 # FrameWork
-I have used NestJS - A progressive `Node.js` framework
+I have used `NestJS` - A progressive `Node.js` framework
 
 # Configuration
 I have host my database on freemysqlhosting.net.
-No need to change config file for api testing.
+No need to change database config for api testing.
 
 Server: sql.freedb.tech
 Name: freedb_mondal
@@ -27,9 +27,9 @@ The database has one table called `products` and has the following structure:
 
 For Swagger api interface please open http://localhost:5000/api/
 
-For FetchData        http://localhost:5000/fetchData
-For GetAllData       http://localhost:5000/getAllData
-For get data by Id   http://localhost:5000/getData/22
+For FetchData        http://localhost:5000/api/fetchData
+For GetAllData       http://localhost:5000/api/getAllData
+For get data by Id   http://localhost:5000/api/getData/22
 
 To start the application with the server listening for HTTP requests on the specified port in the `main.ts` file, run the following command in the terminal:
 
@@ -50,19 +50,19 @@ The available API endpoints are as follows:
 - Get fetch data from third party api
 
 ```
- [GET]: http://localhost:API_PORT/fetchData
-`
+ [GET]: http://localhost:API_PORT/api/fetchData
+```
 
 - Get all products
 
 ```
- [GET]: http://localhost:API_PORT/getAllData
+ [GET]: http://localhost:API_PORT/api/getAllData
 ```
 
 - Get one product by id. If id doesn't exist, throws an error.
 
 ```
- [GET]: http://localhost:API_PORT/getData/:id
+ [GET]: http://localhost:API_PORT/api/getData/:id
 ```
 
 ###  OpenAPI Specification
